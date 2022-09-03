@@ -23,10 +23,11 @@ namespace src.Models
          this.pay = false;
         }
 
+        public int id { get; set; }
         public DateTime dateCreation { get; set; }       
         public string tokenId { get; set; }
         public double value { get; set; }
         public bool pay { get; set; }
-        
+        public int idPerson { get; set; }
     }
 }
